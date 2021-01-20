@@ -1,12 +1,14 @@
 body{
    /* background-image: url(/img/texture-background.jpg);*/
 }
-.basePizza{
+.mesaPizza{
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .IMGpizza{
-    margin-left: 20rem ;
+    margin-left: 10rem ;
     width: 50vw; 
 }
 
@@ -14,9 +16,9 @@ body{
    /* background: rosybrown;*/
     display:grid;
     margin:1rem ;
-    margin-top: 14rem;
+    margin-top: 10rem;
     width:26vw;
-    height: 75vh;
+    height: 5vh;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 4 repeat(1fr);
     grid-column-gap: 2px;
@@ -33,3 +35,56 @@ body{
 }
 
 
+
+@media(min-width:540px) and (max-width:1071px)
+{
+
+
+}
+
+
+@media (max-width:710px)
+{
+
+
+}
+
+@media (max-width:376px)
+{
+    .pizza{
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .IMGpizza{
+        width:100vw ;
+        margin-left: auto;
+        margin-right: 20rem;
+
+
+    }
+
+    .grid img{
+
+        height: 14vh;
+        width: auto;
+
+    }
+
+
+    .grid{
+        height:auto;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 2 repeat(1fr);   
+        grid-column-gap: 5px;
+        grid-row-gap: 1px ;
+    }
+
+    div.mesaPizza{
+        height: 100vh ;
+        flex-direction: column;
+    }
+}
