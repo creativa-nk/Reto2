@@ -1,3 +1,35 @@
 body{
-    background-image: url(/img/texture-background.jpg);
+   /* background-image: url(/img/texture-background.jpg);*/
 }
+.basePizza{
+    display: flex;
+}
+
+.IMGpizza{
+    margin-left: 20rem ;
+    width: 50vw; 
+}
+
+.grid{
+   /* background: rosybrown;*/
+    display:grid;
+    margin:1rem ;
+    margin-top: 14rem;
+    width:26vw;
+    height: 75vh;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 4 repeat(1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0.5rem;
+}
+
+.grid img{
+   /* background: rgb(247, 235, 125);*/
+    background:rgba(139, 138, 138, 0.349);
+   /* border: 10px solid rgba(247, 247, 247, 0.637);*/
+    padding-top: 1%;
+    border-radius: 1rem;
+    margin:5px;
+}
+
+
