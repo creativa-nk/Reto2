@@ -1,5 +1,57 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #79613b83;
+    background: rgb(246, 248, 248);
+    height: 4vh;
+    width: 10vw;
+    cursor: pointer;
+    line-height: normal;
+    text-align: center;
+    border-radius: 6px;
+    color:rgb(95, 94, 94);
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    font-family:'Caveat';
+    font-size: 1.7rem;
+}
+
+:hover.button{
+    background: rgba(107, 107, 107, 0.719);
+    color: white;
+}
+
+a{
+    text-decoration: none;  
+   
+}
+
+.IMGinicio{
+    margin-top: 1rem;
+    height: 80vh;
+}
+
+
+
+
 body{
    /* background-image: url(/img/texture-background.jpg);*/
+}
+
+.titulo{
+    margin-top: 5rem;
+    color: white;
+    font-family:cursive;
+    font-size: 2.7rem;
+    text-shadow: 0 4px 1px rgba(0,0,0,0.25);
 }
 .mesaPizza{
     display: flex;
@@ -8,15 +60,15 @@ body{
 }
 
 .IMGpizza{
-    margin-left: 10rem ;
-    width: 50vw; 
+    margin-left: 20rem ;
+    width: 45vw; 
 }
 
 .grid{
    /* background: rosybrown;*/
     display:grid;
     margin:1rem ;
-    margin-top: 10rem;
+    margin-top: 5rem;
     width:26vw;
     height: 5vh;
     grid-template-columns: 2fr 2fr;
@@ -34,10 +86,130 @@ body{
     margin:5px;
 }
 
-
-
-@media(min-width:540px) and (max-width:1071px)
+@media(min-width:800px) and (max-width:px)
 {
+    .IMGinicio{
+        width: 90vw;
+        height: auto;
+    }
+
+    .button{
+        height: 5vh;
+        width: 20vw;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+
+    .pizza{
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+
+    }
+
+    .IMGpizza{
+        width:95vw ;
+        margin-left: auto;
+        margin-right:auto;
+        align-items: center;
+
+    }
+
+    .grid img{
+        height: 10vh;
+        width: auto;
+
+    }
+
+
+    .grid{
+        width: auto;
+        height:auto;
+        margin-bottom:15rem ;
+        margin-left: auto;
+        margin-right:auto ;
+        grid-template-columns: 2fr;
+        grid-template-rows: 6 repeat(1fr);   
+        grid-column-gap: 5px;
+        grid-row-gap: 1px ;
+        
+    }
+
+    div.mesaPizza{
+        height: 100vh ;
+        flex-direction: column;
+    }
+
+
+}
+
+@media(min-width:540px) and (max-width:800px)
+{
+   /* .titulo{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        
+    }*/
+
+    .IMGinicio{
+        width: 90vw;
+        height: auto;
+    }
+
+    .button{
+        height: 5vh;
+        width: 20vw;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+
+    .pizza{
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+
+    }
+
+    .IMGpizza{
+        width:95vw ;
+        margin-left: auto;
+        margin-right:auto;
+        align-items: center;
+
+    }
+
+    .grid img{
+        height: 10vh;
+        width: auto;
+
+    }
+
+
+    .grid{
+        width: auto;
+        height:auto;
+        margin-bottom:15rem ;
+        margin-left: auto;
+        margin-right:auto ;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 2 repeat(1fr);   
+        grid-column-gap: 5px;
+        grid-row-gap: 1px ;
+        
+    }
+
+    div.mesaPizza{
+        height: 100vh ;
+        flex-direction: column;
+    }
+
+
+
+
 
 
 }
@@ -45,38 +217,120 @@ body{
 
 @media (max-width:710px)
 {
+   /* .titulo{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        
+    }*/
 
+    .IMGinicio{
+        width: 90vw;
+        height: auto;
+    }
 
-}
+    .button{
+        height: 5vh;
+        width: 30vw;
+        text-decoration: none;
+        font-size: 1.7rem;
+    }
 
-@media (max-width:376px)
-{
     .pizza{
         display: block;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        width: 90vw;
 
     }
 
     .IMGpizza{
-        width:100vw ;
+        width:95vw ;
         margin-left: auto;
-        margin-right: 20rem;
-
+        margin-right:auto;
+        align-items: center;
 
     }
 
     .grid img{
-
-        height: 14vh;
+        height: 10vh;
         width: auto;
 
     }
 
 
     .grid{
+        width: auto;
         height:auto;
+        margin-bottom:10rem ;
+        margin-left: auto;
+        margin-right:auto ;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 2 repeat(1fr);   
+        grid-column-gap: 5px;
+        grid-row-gap: 1px ;
+        
+    }
+
+    div.mesaPizza{
+        height: 100vh ;
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media (max-width:376px)
+{
+   /* .titulo{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        
+    }*/
+
+    .IMGinicio{
+        width: 90vw;
+        height: auto;
+    }
+
+    .button{
+        height: 5vh;
+        width: 40vw;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .pizza{
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+
+    }
+
+    .IMGpizza{
+        width:95vw ;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .grid img{
+        height: 10vh;
+        width: auto;
+
+    }
+
+
+    .grid{
+        width: auto;
+        height:auto;
+        margin-bottom:15rem ;
+        margin-left: auto;
+        margin-right: auto ;
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: 2 repeat(1fr);   
         grid-column-gap: 5px;
@@ -87,4 +341,6 @@ body{
         height: 100vh ;
         flex-direction: column;
     }
+
+
 }
