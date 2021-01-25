@@ -60,9 +60,23 @@ body{
 }
 
 .IMGpizza{
+    z-index: 0;
     margin-left: 20rem ;
     width: 45vw; 
 }
+
+.contenedor{
+    width: 27vw;
+    height: 50vh;
+    background: red;
+    z-index: 1;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left:32rem;
+    margin-right: auto;
+
+}
+
 
 .grid{
    /* background: rosybrown;*/
@@ -75,16 +89,28 @@ body{
     grid-template-rows: 4 repeat(1fr);
     grid-column-gap: 2px;
     grid-row-gap: 0.5rem;
+    
 }
 
-.grid img{
-   /* background: rgb(247, 235, 125);*/
+.grid div{
     background:rgba(139, 138, 138, 0.349);
-   /* border: 10px solid rgba(247, 247, 247, 0.637);*/
     padding-top: 1%;
     border-radius: 1rem;
     margin:5px;
 }
+
+
+.tomate{
+    position: absolute;
+    z-index: 1;
+}
+/*.tomate2{
+    position: absolute;
+    z-index: 2;
+}*/
+
+
+
 
 @media(min-width:800px) and (max-width:px)
 {
