@@ -62,19 +62,26 @@ body{
 .IMGpizza{
     z-index: 0;
     margin-left: 20rem ;
-    width: 45vw; 
+    width: 50vw; 
 }
 
 .contenedor{
-    width: 27vw;
-    height: 50vh;
-    background: red;
+    width: 28vw;
+    height: 60vh;
+    /*background: red;*/
     z-index: 1;
     position: absolute;
     margin-top: 15rem;
-    margin-left:32rem;
+    margin-left:35rem;
     margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
+}
+
+.contenedor img{
+    height: 13vh;
+    width: auto;
 }
 
 
@@ -83,9 +90,9 @@ body{
     display:grid;
     margin:1rem ;
     margin-top: 5rem;
-    width:26vw;
+    width:20vw;
     height: 5vh;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr ;
     grid-template-rows: 4 repeat(1fr);
     grid-column-gap: 2px;
     grid-row-gap: 0.5rem;
@@ -99,15 +106,13 @@ body{
     margin:5px;
 }
 
+#ingredientes img{
+    width: auto;
+    height: 12rem;
 
-.tomate{
-    position: absolute;
-    z-index: 1;
 }
-/*.tomate2{
-    position: absolute;
-    z-index: 2;
-}*/
+
+
 
 
 
