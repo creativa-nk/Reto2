@@ -96,7 +96,7 @@ function soltar (e ) {
         document.getElementById('listaDeIngredientes').innerHTML =  " " + listaActual.concat(ingrediente) ;
     }
      else {
-        document.getElementById('listaDeIngredientes').innerHTML =  " " + listaActual.concat(",", ingrediente) ;
+        document.getElementById('listaDeIngredientes').innerHTML =  " " + listaActual.concat("," + "\n" , ingrediente) ;
      }   
 
     
