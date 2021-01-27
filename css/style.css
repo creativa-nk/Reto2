@@ -107,21 +107,24 @@ body{
 }
  
 .listaDeIngredientes{
-    width: 20vw;
+    width: 17vw;
     height: 40vh;
     grid-column: span 2;
     grid-row: span 2;
-    padding: 10px;
-
+    padding: 40px;
+    /*margin:40px 10px 20px 10px;*/
 }
 
-h1{
-    color: white;
-    text-shadow: 0 -1px 3px rgba(0, 0, 0, 0.486) ;
+.encabezado{
+    color: rgb(68, 63, 63);
+    text-shadow: 0 -2px 4px rgba(0, 0, 0, 0.486) ;
     font-family:cursive;
 }
 
 span{
+    color: rgb(253, 251, 251);
+    text-shadow: 0 -1px 3px rgba(0, 0, 0, 0.486) ;
+    font-family:cursive;
     column-count: 2 ;
     column-gap: 2px ;
 }
@@ -141,10 +144,10 @@ span{
 
 
 
-@media(min-width:800px) and (max-width:px)
+/*@media(min-width:800px) and (max-width:px)
 {
     .IMGinicio{
-        width: 90vw;
+        width:80vw;
         height: auto;
     }
 
@@ -198,7 +201,7 @@ span{
     }
 
 
-}
+}*/
 
 @media(min-width:540px) and (max-width:800px)
 {
@@ -262,11 +265,6 @@ span{
         flex-direction: column;
     }
 
-
-
-
-
-
 }
 
 
@@ -278,19 +276,19 @@ span{
         
     }*/
 
-    .IMGinicio{
+   /* .IMGinicio{
         width: 90vw;
         height: auto;
     }
 
-    .button{
+   /* .button{
         height: 5vh;
         width: 30vw;
         text-decoration: none;
         font-size: 1.7rem;
     }
 
-    .pizza{
+  /*  .pizza{
         display: block;
         align-items: center;
         margin-left: auto;
@@ -299,7 +297,7 @@ span{
 
     }
 
-    .IMGpizza{
+  /*  .IMGpizza{
         width:95vw ;
         margin-left: auto;
         margin-right:auto;
@@ -307,14 +305,14 @@ span{
 
     }
 
-    .grid img{
+  /*  .grid img{
         height: 10vh;
         width: auto;
 
     }
 
 
-    .grid{
+   /* .grid{
         width: auto;
         height:auto;
         margin-bottom:10rem ;
@@ -327,7 +325,7 @@ span{
         
     }
 
-    div.mesaPizza{
+  /*  div.mesaPizza{
         height: 100vh ;
         flex-direction: column;
     }
@@ -357,16 +355,16 @@ span{
         font-size: 1.5rem;
     }
 
-    .pizza{
+   /* .pizza{
         display: block;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
         width: 80vw;
 
-    }
+    }*/
 
-    .IMGpizza{
+   .IMGpizza{
         width:95vw ;
         margin-left: auto;
         margin-right: auto;
@@ -374,7 +372,7 @@ span{
     }
 
     .grid img{
-        height: 10vh;
+        height: 5px;
         width: auto;
 
     }
@@ -382,7 +380,7 @@ span{
 
     .grid{
         width: auto;
-        height:auto;
+        height:40vh;
         margin-bottom:15rem ;
         margin-left: auto;
         margin-right: auto ;
@@ -393,7 +391,6 @@ span{
     }
 
     div.mesaPizza{
-        height: 100vh ;
         flex-direction: column;
     }
 
