@@ -67,34 +67,34 @@ body{
 
 .contenedor{
     width: 28vw;
-    height: 60vh;
+    height: 50vh;
     /*background: red;*/
     z-index: 1;
     position: absolute;
     margin-top: 15rem;
     margin-left:35rem;
     margin-right: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    
 
 }
 
 .contenedor img{
-    height: 13vh;
+    height: 18vh;
     width: auto;
 }
+
 
 
 .grid{
    /* background: rosybrown;*/
     display:grid;
-    margin:1rem ;
-    margin-top: 5rem;
-    width:20vw;
+    /*margin:1rem ;*/
+    margin: 2rem 10rem;
+    width:15vw;
     height: 5vh;
-    grid-template-columns: 2fr 2fr ;
-    grid-template-rows: 4 repeat(1fr);
-    grid-column-gap: 2px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 4 repeat(1fr) 2fr;
+    /* grid-column-gap: 1px; */
     grid-row-gap: 0.5rem;
     
 }
@@ -103,14 +103,38 @@ body{
     background:rgba(139, 138, 138, 0.349);
     padding-top: 1%;
     border-radius: 1rem;
-    margin:5px;
+    margin:3px;
 }
+ 
+.listaDeIngredientes{
+    width: 20vw;
+    height: 40vh;
+    grid-column: span 2;
+    grid-row: span 2;
+    padding: 10px;
+
+}
+
+h1{
+    color: white;
+    text-shadow: 0 -1px 3px rgba(0, 0, 0, 0.486) ;
+    font-family:cursive;
+}
+
+span{
+    column-count: 2 ;
+    column-gap: 2px ;
+}
+
 
 #ingredientes img{
     width: auto;
-    height: 12rem;
-
+    height: 9rem;
 }
+
+
+
+
 
 
 
