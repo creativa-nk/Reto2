@@ -47,7 +47,7 @@ function soltar (e ) {
     document.getElementById('cebolla').ondragstart = empezar;
     document.getElementById('aceitunas').ondragstart = empezar;
     document.getElementById('bacon').ondragstart = empezar;
-    document.getElementById('champiñones').ondragstart = empezar;
+    document.getElementById('champiniones').ondragstart = empezar;
     document.getElementById('gorgonzola').ondragstart = empezar;
     document.getElementById('albahaca').ondragstart = empezar;
     document.getElementById('lista').ondrop = soltar;
