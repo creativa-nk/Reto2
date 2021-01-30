@@ -53,8 +53,8 @@ a{
 }
 
 .IMGpizza{
-    margin-left: 5rem ;
-    width: 50vw;
+    margin-left: 7rem ;
+    width: 42vw;
     position: absolute; 
     z-index: 0; 
 }
@@ -81,8 +81,8 @@ a{
 .grid{
     display:grid;
     margin-top: 1rem;
-    margin-right:20rem ;
-    width:15vw;
+    margin-right:27rem ;
+    width:10vw;
     height: 5vh;
     grid-template-rows: repeat(6,1fr);
     grid-template-columns: repeat(3, 2fr);
@@ -117,12 +117,12 @@ a{
 
 #ingredientes img{
     width: auto;
-    height: 9rem;
+    height: 7rem;
 }
 
 .listaDeIngredientes{
     grid-column:1/4;
-    grid-row: 4/56;
+    grid-row: 4/5;
     padding:30px ;
     
 }

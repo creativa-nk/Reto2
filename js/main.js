@@ -4,15 +4,15 @@ function empezar(e ){
     e.dataTransfer.effectAllowed = 'move';
     }
 
-
- function pizza(e ) {
+function pizza(e ) {
     e.dataTransfer.dropEffect = 'move';
     return false;
     }
 
-
 function soltar (e ) {
+    e.preventDefault();
     imagen = new Image();
+    imagen.setAttribute('draggable', false);
     imagen.src = "./img/" + e.dataTransfer.getData('Text') + '.png';
     document.getElementById('lista').appendChild(imagen);
     var ingrediente = e.dataTransfer.getData('Text');
@@ -33,14 +33,8 @@ function soltar (e ) {
     } 
 
 
-
-    
-    //Ya solo queda conectar los Div de lista y comida a las funciones que hemos creado anteriormente:
-    
-    //Conectamos los eventos
-    //ondragover - Al mover sobre la lista
     document.getElementById('lista').ondragover = pizza;
-   
+
     document.getElementById('tomate').ondragstart = empezar;
     document.getElementById('mozarella').ondragstart = empezar;
     document.getElementById('queso').ondragstart = empezar;
@@ -50,6 +44,7 @@ function soltar (e ) {
     document.getElementById('champiniones').ondragstart = empezar;
     document.getElementById('gorgonzola').ondragstart = empezar;
     document.getElementById('albahaca').ondragstart = empezar;
+
     document.getElementById('lista').ondrop = soltar;
 
     function reset(){
