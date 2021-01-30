@@ -53,8 +53,8 @@ a{
 }
 
 .IMGpizza{
-    margin-left: 7rem ;
-    width: 42vw;
+    margin-left: 15rem ;
+    width: 47vw;
     position: absolute; 
     z-index: 0; 
 }
@@ -65,8 +65,8 @@ a{
     /*background: red;*/
     z-index: 1;
     position: relative;
-    margin-top: 15rem;
-    margin-left:20rem;
+    margin-top: 18rem;
+    margin-left:30rem;
     margin-right: auto;
     
 }
@@ -78,7 +78,7 @@ a{
 
 .grid{
     display:grid;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-right:27rem ;
     width:10vw;
     height: 5vh;
@@ -93,6 +93,11 @@ a{
     border-radius: 1rem;
     margin:0.3rem;
     box-shadow: 0 3px 7px rgba(0,0,0,0.5);
+}
+
+#ingredientes img{
+    width: auto;
+    height: 11rem;
 }
 
 .resetBtn{
@@ -112,14 +117,11 @@ a{
     color: white;
 }
 
-#ingredientes img{
-    width: auto;
-    height: 7rem;
-}
+
 
 .listaDeIngredientes{
     grid-column:1/4;
-    height: 35vh;
+    height: 20vh;
     padding:30px ;
     overflow:hidden;
     
@@ -144,8 +146,51 @@ span{
 
 
 
+@media (min-width:1100px) and (max-width:1440px) /*portatil*/
+{
+    .IMGpizza{
+        margin-right: auto;
+        margin-left: 2rem;
+        width: 800px;
+    }
 
+    .contenedor{
+        width: 29vw;
+        height: 40vh;
+        /*background: red;*/
+        margin-top: 15rem;
+        margin-left:15rem;
+       
+        
+    }
 
+    .encabezado{
+        font-size: 1.5rem;
+    }
+
+    .listaDeIngredientes{
+        height: 25vh;
+    }
+
+    .resetBtn{
+        height:9vh ;
+    }
+
+    .limpiar{
+        font-size: 1.5rem;
+    }
+    .grid{
+        display:grid;
+        margin-top: 1rem;
+        margin-right:20rem ;   
+    }
+
+    #ingredientes img{
+        width: auto;
+        height: 7rem;
+    }
+
+}
 @media (min-width:511px) and (max-width:1100px) 
 {
     .mesaPizza{
@@ -241,6 +286,12 @@ span{
 
 @media (min-width:401px) and (max-width:510px)
 {
+    .button{
+        height:2rem ;
+        width:7rem ;
+        margin-top: 6rem;
+        margin-right: 10rem;
+    }
 
     .IMGinicio{
         margin-top: 1rem;
@@ -336,10 +387,13 @@ span{
     .button{
         height:2rem ;
         width:10rem ;
+        margin-right: 9rem;
+        margin-top: 6rem;
     }
 
     .IMGinicio{
         margin-top: 1rem;
+        margin-left: 10rem;
         height: 60vh;
     }
 
@@ -366,7 +420,7 @@ span{
 
     .grid{
          margin-top:11rem ;
-         margin-left:15rem;
+         margin-left:18rem;
          width:35vw;
          height: 15vh;
          grid-template-columns: repeat(5,1fr);
