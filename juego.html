@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Nadia Klokova">
+    <meta name="discription" content="Practicas HTML5,CSS y JS"> 
+    <link rel="shortcut icon" href="/img/favicon/icon_c0d7084fe7af734c9a7f081b3a1285d0.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reto 2</title>
+</head>
+<body background="./img/texture-background5.jpg">  
+    <div class="mesaPizza">
+        <div class="pizza" >
+            <div class="divImgPizza"><img class="IMGpizza" id="IMGpizza" src="./img/pizza-base-queso.png" alt=""></div> 
+       
+        
+        <div class="contenedor" id="lista"></div>
+
+        </div>
+
+        <div class="grid" id="ingredientes">
+            <div class="INGtomate" >
+                <img src="./img/tomate.png" id="tomate"  draggable="true"  alt="" class="ingredientes">
+            </div>
+            <div class="INGqueso">
+                <img src="./img/queso.png" id="queso" draggable="true" alt="queso" class="ingredientes">
+            </div>
+            <div class="INGalbahaca"  >
+                <img src="./img/albahaca.png" id="albahaca" alt="albahaca" class="ingredientes" draggable="true">
+            </div>
+            <div class="Inmozarella" >
+                <img src="./img/mozarella.png" alt="mozarella" class="mozarella" id="mozarella" draggable="true" >
+            </div> 
+            <div class="INGcebolla" >
+                 <img src="./img/cebolla.png" alt="cebolla" class="cebolla" id="cebolla" draggable="true" >
+                </div>
+            <div class="INGaceitunas" > 
+                <img src="./img/aceitunas.png" alt="aceitunas" class="aceitunas" id="aceitunas" draggable="true">
+            </div>
+            <div class="INGbaicon" > 
+                <img src="./img/bacon.png" alt="bacon" class="bacon" id="bacon" draggable="true" >
+            </div>
+            <div class="INGchampi">
+                <img src="./img/champiniones.png" alt="champiniones" class="champi" id="champiniones" draggable="true">
+            </div>
+            <div class="INGgorgonzola">
+                <img src="./img/gorgonzola.png" alt="gorgonzola" class="gorgonzola" id="gorgonzola" draggable="true">
+            </div>
+            <div class="listaDeIngredientes" >
+                <h1 class="encabezado" > Me gusta la pizza con: <br> <span id="listaDeIngredientes"></span>  </h1>
+            </div>
+
+            <div class="resetBtn" onclick="reset();">
+                <h1 class="limpiar">Limpiar</h1>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
