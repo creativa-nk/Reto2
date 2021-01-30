@@ -26,9 +26,6 @@ function soltar (e ) {
         document.getElementById('listaDeIngredientes').innerHTML =  " " + listaActual.concat("," + "\n" , ingrediente) ;
      }   
 
-    
-
-
     console.log(listaActual.concat(",", ingrediente));
     } 
 
@@ -46,6 +43,7 @@ function soltar (e ) {
     document.getElementById('albahaca').ondragstart = empezar;
 
     document.getElementById('lista').ondrop = soltar;
+
 
     function reset(){
         location.reload();
