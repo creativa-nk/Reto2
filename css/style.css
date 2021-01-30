@@ -61,12 +61,12 @@ a{
 
 .contenedor{
     width: 25vw;
-    height: 50vh;
-   /* background: red;*/
+    height: 40vh;
+    /*background: red;*/
     z-index: 1;
     position: relative;
-    margin-top: 19rem;
-    margin-left:24rem;
+    margin-top: 15rem;
+    margin-left:20rem;
     margin-right: auto;
     
 }
@@ -75,8 +75,6 @@ a{
     height: 15vh;
     width: auto;
 }
-
-
 
 .grid{
     display:grid;
@@ -87,7 +85,6 @@ a{
     grid-template-rows: repeat(6,1fr);
     grid-template-columns: repeat(3, 2fr);
     grid-row-gap: 0.5rem;
-   
 }
 
 .grid div{
@@ -122,8 +119,9 @@ a{
 
 .listaDeIngredientes{
     grid-column:1/4;
-    grid-row: 4/5;
+    height: 35vh;
     padding:30px ;
+    overflow:hidden;
     
 }
 
@@ -368,7 +366,7 @@ span{
 
     .grid{
          margin-top:11rem ;
-         margin-left:10rem;
+         margin-left:15rem;
          width:35vw;
          height: 15vh;
          grid-template-columns: repeat(5,1fr);
