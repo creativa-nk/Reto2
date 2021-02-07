@@ -6,7 +6,7 @@ Discripcion
 Web dinamica creada para practicar HTML5, CSS3, CSS Layout (Flex
 y Grid) , GIT, Javascript - ES6.
 
-En la pantalla de juego aparece pizza y a la derecha un Grid que contiene
+En la pantalla de juego aparece una base de pizza y a la derecha un Grid que contiene
 - espacio con ingredientes
 - espacio donde se crea la lista "Me gusta la pizza con:"
 - y boton de "Limpiar"
