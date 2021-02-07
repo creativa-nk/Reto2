@@ -20,3 +20,5 @@ Al soltar:
 
 Esta hecho responsive design usando @media query
  - grid cambia de forma y posicion para adaptarse a diferentes pantallas
+ 
+ Durante el proceso de desarollo del juego he podido practicar el uso de git y crear varias ramas(branch) que han servido para experimentar y perfeccionar el codigo.
