@@ -48,26 +48,36 @@ a{
 
 .mesaPizza{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
 .IMGpizza{
-    margin-left: 15rem ;
-    width: 47vw;
+    /* margin-left: 15rem ; */
+    width: 48vw;
     position: absolute; 
     z-index: 0; 
 }
 
+.pizza{
+   /*  background: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    height: 90vh;
+    width: 55vw;
+}
+
 .contenedor{
     width: 25vw;
-    height: 40vh;
-    /*background: red;*/
+    height: 50vh;
+   /*  background: red; */
     z-index: 1;
-    position: relative;
+    /* position: relative;
     margin-top: 18rem;
     margin-left:30rem;
-    margin-right: auto;
+    margin-right: auto; */
     
 }
 
