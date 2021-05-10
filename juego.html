@@ -12,39 +12,37 @@
 <body background="./img/texture-background5.jpg">  
     <div class="mesaPizza">
         <div class="pizza" >
-            <div class="divImgPizza"><img class="IMGpizza" id="IMGpizza" src="./img/pizza-base-queso.png" alt=""></div> 
-       
-        
-        <div class="contenedor" id="lista"></div>
+            <img class="IMGpizza" id="IMGpizza" src="./img/pizza-base-queso.png" alt="">
+            <div class="contenedor" id="lista"></div>
 
         </div>
 
         <div class="grid" id="ingredientes">
-            <div class="INGtomate" >
+            <div class="INGtomate" id='ingredientes'>
                 <img src="./img/tomate.png" id="tomate"  draggable="true"  alt="" class="ingredientes">
             </div>
-            <div class="INGqueso">
+            <div class="INGqueso" id='ingredientes'>
                 <img src="./img/queso.png" id="queso" draggable="true" alt="queso" class="ingredientes">
             </div>
-            <div class="INGalbahaca"  >
+            <div class="INGalbahaca" id='ingredientes' >
                 <img src="./img/albahaca.png" id="albahaca" alt="albahaca" class="ingredientes" draggable="true">
             </div>
-            <div class="Inmozarella" >
+            <div class="Inmozarella" id='ingredientes' >
                 <img src="./img/mozarella.png" alt="mozarella" class="mozarella" id="mozarella" draggable="true" >
             </div> 
-            <div class="INGcebolla" >
+            <div class="INGcebolla" id='ingredientes'>
                  <img src="./img/cebolla.png" alt="cebolla" class="cebolla" id="cebolla" draggable="true" >
                 </div>
-            <div class="INGaceitunas" > 
+            <div class="INGaceitunas" id='ingredientes' > 
                 <img src="./img/aceitunas.png" alt="aceitunas" class="aceitunas" id="aceitunas" draggable="true">
             </div>
-            <div class="INGbaicon" > 
+            <div class="INGbaicon" id='ingredientes' > 
                 <img src="./img/bacon.png" alt="bacon" class="bacon" id="bacon" draggable="true" >
             </div>
-            <div class="INGchampi">
+            <div class="INGchampi" id='ingredientes'>
                 <img src="./img/champiniones.png" alt="champiniones" class="champi" id="champiniones" draggable="true">
             </div>
-            <div class="INGgorgonzola">
+            <div class="INGgorgonzola" id='ingredientes'>
                 <img src="./img/gorgonzola.png" alt="gorgonzola" class="gorgonzola" id="gorgonzola" draggable="true">
             </div>
             <div class="listaDeIngredientes" >
@@ -58,6 +56,36 @@
         </div>
         
     </div>
-    <script src="./js/main.js"></script>
+
+    
+<!--     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script>
+        $('#tomate').draggable({
+            scroll: false,
+            containment: "body",
+            
+            start: function( event, ui ) {
+                console.log("start top is :" + ui.position.top)
+                console.log("start left is :" + ui.position.left)
+            },
+            drag: function(event, ui) {
+                console.log('draging.....');    
+            },
+            stop: function( event, ui ) {
+                console.log("stop top is :" + ui.position.top)
+                console.log("stop left is :" + ui.position.left)
+
+                alert('left:'+ui.position.left + ' top:'+ui.position.top)
+            }    
+        });    
+    </script> -->      
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+   <script src="./js/main.js"></script>
+    
 </body>
 </html>
